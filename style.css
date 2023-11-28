@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* Navbar  */
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    background-image: url('images/logo.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.nav-items ul{
+    list-style: none; 
+    display: flex;
+    gap: 50px;   
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);  
+    font-size: 1.2rem;  
+}
+.active{
+    font-weight: bold;
+    color: black;   
+    text-decoration: underline 2px rgb(22, 70, 51);
+}
+
+.nav-search i{
+    color: rgb(92, 92, 92);  
+    padding: 5px 10px;
+    
+}
+.nav-search{
+    background-color: white;
+    width: 270px;
+    height: 35px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px  rgb(112, 112, 112) ;
+}
+.nav-search input{
+    width:85%;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.nav-search input:focus { 
+    outline: none !important;
+}
+
+.contact{
+    background-image: url(images/account_thin.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+/* Know more card  */
+.know-more{
+    background-color: rgb(22, 70, 51);
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.know-more p{
+    font-size: 1.2rem;
+    width: 70%;
+}
+.know-more button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* Food items card  */
+.foods{
+    display: flex;
+    justify-content: space-evenly;
+}
+.food-name img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: transform ease-in 0.5s;
+}
+.food-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.food-item h2{
+    margin: 20px 100px;
+    color: rgb(22, 70, 51);
+}
+.food-name p{
+    font-weight: bold;
+}
+.food-name img:hover{
+    transform: scale(0.999);
+    border: 2px solid rgb(22, 70, 51);
+    cursor: pointer;
+}
+/* Events card  */
+.events{
+    background-color: rgba(192, 192, 192, 0.384);
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.events h2{
+    margin: 20px 100px;
+    color: rgb(22, 70, 51);
+}
+.card{
+    background-color: white;
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px  rgb(112, 112, 112) ;
+}
+.event-img{
+    margin-top: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url('images/ICW_Live_Event_Day4_8b66c34e69.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.date p{
+    margin: 20px 0 20px 20px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+.event-desc p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.event-heading{
+    font-weight: bold;
+}
+.event-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.event-btn p{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.event-btn button{
+    margin-right: 20px;
+    background-color: rgb(22, 70, 51) ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+.events-card{
+    margin: 30px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.event-img p{
+    color: green;
+    font-size: 0.8rem;
+    background-color: rgba(194, 226, 194, 0.904);
+    width: 70px;
+    border-radius: 3px ;
+    text-align: center; 
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+.event-img1{
+    margin-top: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url('images/ICW_Live_Event_Day5_41f11ca3d2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.event-img2{
+    margin-top: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url('images/ICW_Live_Event_Day6_e83fce89f1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.event-img1 p{
+    color: green;
+    font-size: 0.8rem;
+    background-color: rgba(194, 226, 194, 0.904);
+    width: 70px;
+    border-radius: 3px ;
+    text-align: center; 
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+.event-img2 p{
+    color: green;
+    font-size: 0.8rem;
+    background-color: rgba(194, 226, 194, 0.904);
+    width: 70px;
+    border-radius: 3px ;
+    text-align: center; 
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+/* Advertisment card */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad-card{
+    margin: 50px 0;
+    padding: 30px 20px;
+    display: flex;
+    background-color: rgb(7, 85, 54);
+    color: white;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.ad-img{
+    width: 100px;
+    height: 190px;
+    background-image: url('images/Disney_App_Banner_Icon_2_eac145b564.png');
+    background-size: cover;
+}
+.ad-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.ad-btn button{
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+.veg{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.veg-size{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.veg p{
+    color: green;
+    background-color: rgba(187, 219, 187, 0.795);
+    font-size: 0.8rem;
+}
+/* footer  */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(7, 85, 54);
+    color: white;
+    /* height: 300px; */
+    padding: 50px 50px;
+}
+.footer-logo{
+    width: 70px;
+    height: 70px;
+    background-image: url('images/logo.png');
+    background-size: cover;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social i{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    overflow: hidden;
+}
+.menu{
+   font-size: 2rem;
+   visibility: hidden;
+}
+.close{
+    font-size: 2rem;
+    visibility: hidden;
+}
+

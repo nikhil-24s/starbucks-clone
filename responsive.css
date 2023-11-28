@@ -1,0 +1,111 @@
+/* Media Querys  */
+
+@media screen and (max-width: 1180px) {
+    .events-card{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .footer{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .foods{
+        flex-wrap: wrap;
+    }
+    .navbar{
+       flex-direction: column;
+       height: 130px;
+       
+    }
+    .nav-items ul{
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-items ul li a{
+        color: white;
+    }
+    .nav-search{
+        margin: 10px 0;
+    }
+    .logo{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 30px;
+        top: 30px;
+    }
+    .menu{
+        visibility: visible;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .close{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width: 700px){
+    .ad-card{
+        margin: 10px 0;
+        padding: 15px 0;
+        height: 450px;
+        flex-wrap: wrap;
+    }
+    .ad-desc{
+        margin-left: 5px
+    }
+    .ad-desc p{
+        font-size: 0.7rem;
+    }
+    .ad-desc h2{
+        font-size: 0.7rem;
+    }
+    .ad-desc h3{
+        font-size: 0.7rem;
+    }
+    .ad-btn button{
+       font-size: 0.7rem;   
+    }
+}
+@media screen and (max-width: 500px) {
+    .event-img-res {
+        height: 40%;
+    }
+    .food-item h2{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .food-name{
+        margin: 10px 10px;
+    }
+    .events h2{
+        width: 100%;
+        margin: 0 10px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
