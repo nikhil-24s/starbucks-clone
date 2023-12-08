@@ -22,7 +22,6 @@
     .navbar{
        flex-direction: column;
        height: 130px;
-       
     }
     .nav-items ul{
         margin-top: 100px;
